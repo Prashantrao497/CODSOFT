@@ -1,0 +1,83 @@
+.addUser {
+  background-color: #f9fafb;
+  width: 30%;
+  margin: 60px auto;
+  padding: 50px;
+  border-radius: 12px;
+  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+  transition: box-shadow 0.3s ease;
+}
+
+.addUser:hover {
+  box-shadow: 0px 6px 20px rgba(0, 0, 0, 0.15);
+}
+
+.addUser h3 {
+  text-align: center;
+  font-weight: 600;
+  color: #00796b;
+  text-transform: uppercase;
+  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.addUserForm .inputGroup {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  margin-top: 15px;
+}
+
+.addUserForm .inputGroup label {
+  margin-bottom: 5px;
+  font-weight: 500;
+  color: #555;
+}
+
+.addUserForm .inputGroup input {
+  margin-top: 3px;
+  padding: 12px;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  font-size: 16px;
+  transition: border-color 0.3s ease;
+}
+
+.addUserForm .inputGroup input:focus {
+  border-color: #00796b;
+  outline: none;
+}
+
+.inputGroup button {
+  margin-top: 20px;
+  padding: 12px;
+  background-color: #00796b;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.inputGroup button:hover {
+  background-color: #005f56;
+}
+
+.login {
+  margin-top: 30px;
+  text-align: center;
+}
+
+.login .btn.btn-success {
+  width: 60%;
+  background-color: #005f56;
+  color: white;
+  border-radius: 6px;
+  padding: 10px;
+  transition: background-color 0.3s ease;
+}
+
+.login .btn.btn-success:hover {
+  background-color: #00796b;
+}
